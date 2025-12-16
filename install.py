@@ -37,6 +37,9 @@ def main():
         print("Missing prerequisites:")
         for dep in missing:
             print(f"  - {dep}")
+        print("\nRequired environment variables:")
+        print("  export NEON_API_KEY=your-key")
+        print("  export NEON_PROJECT_ID=your-project-id")
         sys.exit(1)
 
     skills_dir = Path.home() / ".claude" / "skills"
