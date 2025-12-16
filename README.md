@@ -5,7 +5,7 @@ Claude Code skill for building Rust web applications (Axum + HTMX + Neon).
 ## Install
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/arseny/rust-webapp-skill/main/install.py | python3
+curl -sSL https://raw.githubusercontent.com/arsenyinfo/rust-webapp-skill/main/install.py | python3
 ```
 
 ## Prerequisites

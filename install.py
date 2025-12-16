@@ -14,7 +14,7 @@ import tempfile
 from pathlib import Path
 
 
-REPO_URL = "https://github.com/arseny/rust-webapp-skill.git"
+REPO_URL = "https://github.com/arsenyinfo/rust-webapp-skill.git"
 SKILL_NAME = "rust-webapp"
 
 
