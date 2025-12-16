@@ -18,7 +18,27 @@ REPO_URL = "https://github.com/arsenyinfo/rust-webapp-skill.git"
 SKILL_NAME = "rust-webapp"
 
 
+def check_prerequisites() -> list[str]:
+    missing = []
+    if not shutil.which("jq"):
+        missing.append("jq (install with: brew install jq)")
+    if not shutil.which("neonctl"):
+        missing.append("neonctl (install with: npm i -g neonctl)")
+    if not shutil.which("cargo"):
+        missing.append("cargo (install from: https://rustup.rs)")
+    if not shutil.which("sqlx"):
+        missing.append("sqlx (install with: cargo install sqlx-cli --features postgres,native-tls)")
+    return missing
+
+
 def main():
+    missing = check_prerequisites()
+    if missing:
+        print("Missing prerequisites:")
+        for dep in missing:
+            print(f"  - {dep}")
+        sys.exit(1)
+
     skills_dir = Path.home() / ".claude" / "skills"
     target_dir = skills_dir / SKILL_NAME
 
@@ -42,13 +62,9 @@ def main():
             capture_output=True,
         )
 
-        # copy skill files (exclude git and install script)
+        # copy skill subdirectory contents
         print(f"Installing to {target_dir}...")
-        shutil.copytree(
-            tmp_path,
-            target_dir,
-            ignore=shutil.ignore_patterns(".git", "install.py", "LICENSE", ".gitignore"),
-        )
+        shutil.copytree(tmp_path / "skill", target_dir)
 
     # make scripts executable
     scripts_dir = target_dir / "scripts"
@@ -58,10 +74,6 @@ def main():
                 script.chmod(script.stat().st_mode | 0o111)
 
     print(f"\nInstalled to: {target_dir}")
-    print("\nPrerequisites (install once):")
-    print("  npm i -g neonctl")
-    print("  brew install jq")
-    print("  cargo install sqlx-cli --features postgres,native-tls")
     print("\nSet environment variables:")
     print("  export NEON_API_KEY=your-key")
     print("  export NEON_PROJECT_ID=your-project-id")
