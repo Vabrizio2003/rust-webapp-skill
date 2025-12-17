@@ -89,6 +89,7 @@ Fix all errors before completing.
 3. **All handlers return `Result<T, AppError>`**
 4. **Check `rows_affected()`** for DELETE/UPDATE to return 404
 5. **Use compile-time SQLx macros** (`query!`, `query_as!`)
+6. **Ensure** the app has enough logs for basic observability 
 
 Full list: [Pitfalls](./references/pitfalls.md)
 
